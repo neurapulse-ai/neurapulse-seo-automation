@@ -1,0 +1,14 @@
+{
+  "website_url": "https://neuraplus-ai.github.io",
+  "username": "neuraplusai001",
+  "email": "neurapulse.ai01@gmail.com",
+  "password": "Piyush@7894",
+  "default_tags": "ai tools, web design, artificial intelligence, 2026, digital marketing",
+  "delay_between_sites": 3,
+  "headless": false,
+  "images_folder": "images/master",
+  "processed_folder": "images/processed",
+  "pages_file": "data/pages.csv",
+  "log_file": "logs/errors.log",
+  "submission_log": "data/submission_log.json"
+}
