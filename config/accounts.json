@@ -1,0 +1,74 @@
+{
+  "sites": {
+    "pinterest": {
+      "email": "",
+      "password": "",
+      "username": "",
+      "signed_up": false,
+      "last_login": ""
+    },
+    "flickr": {
+      "email": "",
+      "password": "",
+      "username": "",
+      "signed_up": false,
+      "last_login": ""
+    },
+    "imgur": {
+      "email": "",
+      "password": "",
+      "username": "",
+      "signed_up": false,
+      "last_login": ""
+    },
+    "tumblr": {
+      "email": "",
+      "password": "",
+      "username": "",
+      "signed_up": false,
+      "last_login": ""
+    },
+    "deviantart": {
+      "email": "",
+      "password": "",
+      "username": "",
+      "signed_up": false,
+      "last_login": ""
+    },
+    "500px": {
+      "email": "",
+      "password": "",
+      "username": "",
+      "signed_up": false,
+      "last_login": ""
+    },
+    "reddit": {
+      "email": "",
+      "password": "",
+      "username": "",
+      "signed_up": false,
+      "last_login": ""
+    },
+    "behance": {
+      "email": "",
+      "password": "",
+      "username": "",
+      "signed_up": false,
+      "last_login": ""
+    },
+    "dribbble": {
+      "email": "",
+      "password": "",
+      "username": "",
+      "signed_up": false,
+      "last_login": ""
+    },
+    "artstation": {
+      "email": "",
+      "password": "",
+      "username": "",
+      "signed_up": false,
+      "last_login": ""
+    }
+  }
+}
