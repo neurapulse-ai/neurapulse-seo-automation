@@ -1,0 +1,421 @@
+{
+  "auto_sites": [
+    {
+      "name": "PostImage",
+      "url": "https://postimage.org",
+      "type": "auto",
+      "max_size_mb": 8,
+      "allowed_formats": ["jpg", "png", "gif"],
+      "selectors": {
+        "upload_button": "input[type='file']",
+        "submit_button": "input[type='submit']",
+        "url_output": "input#code_direct"
+      }
+    },
+    {
+      "name": "ImgBB",
+      "url": "https://imgbb.com",
+      "type": "auto",
+      "max_size_mb": 32,
+      "allowed_formats": ["jpg", "png", "gif", "webp"],
+      "selectors": {
+        "upload_button": "input[type='file']",
+        "title_field": "input[name='title']",
+        "submit_button": "button[type='submit']",
+        "url_output": "input.upload-url"
+      }
+    },
+    {
+      "name": "ImgBox",
+      "url": "https://imgbox.com",
+      "type": "auto",
+      "max_size_mb": 10,
+      "allowed_formats": ["jpg", "png", "gif"],
+      "selectors": {
+        "upload_button": "input[type='file']",
+        "submit_button": "input[type='submit']"
+      }
+    },
+    {
+      "name": "FreeImageHosting",
+      "url": "https://www.freeimagehosting.net",
+      "type": "auto",
+      "max_size_mb": 3,
+      "allowed_formats": ["jpg", "png", "gif"],
+      "selectors": {
+        "upload_button": "input[type='file']",
+        "submit_button": "input[type='submit']"
+      }
+    },
+    {
+      "name": "TurboImageHost",
+      "url": "https://www.turboimagehost.com",
+      "type": "auto",
+      "max_size_mb": 5,
+      "allowed_formats": ["jpg", "png"],
+      "selectors": {
+        "upload_button": "input[type='file']",
+        "submit_button": "input[type='submit']"
+      }
+    },
+    {
+      "name": "PicPaste",
+      "url": "https://picpaste.com",
+      "type": "auto",
+      "max_size_mb": 5,
+      "allowed_formats": ["jpg", "png", "gif"],
+      "selectors": {
+        "upload_button": "input[type='file']",
+        "submit_button": "input[type='submit']"
+      }
+    },
+    {
+      "name": "ImageUpload",
+      "url": "https://imageupload.io",
+      "type": "auto",
+      "max_size_mb": 10,
+      "allowed_formats": ["jpg", "png", "gif", "webp"],
+      "selectors": {
+        "upload_button": "input[type='file']",
+        "submit_button": "button[type='submit']"
+      }
+    },
+    {
+      "name": "UploadHouse",
+      "url": "https://uploadhouse.com",
+      "type": "auto",
+      "max_size_mb": 10,
+      "allowed_formats": ["jpg", "png"],
+      "selectors": {
+        "upload_button": "input[type='file']",
+        "submit_button": "input[type='submit']"
+      }
+    },
+    {
+      "name": "ImgFlip",
+      "url": "https://imgflip.com/memegenerator",
+      "type": "auto",
+      "max_size_mb": 5,
+      "allowed_formats": ["jpg", "png"],
+      "selectors": {
+        "upload_button": "input[type='file']",
+        "submit_button": "button[type='submit']"
+      }
+    },
+    {
+      "name": "ImgBox2",
+      "url": "https://imgbox.com",
+      "type": "auto",
+      "max_size_mb": 10,
+      "allowed_formats": ["jpg", "png", "gif"],
+      "selectors": {
+        "upload_button": "input[type='file']",
+        "submit_button": "input[type='submit']"
+      }
+    },
+    {
+      "name": "Gyazo",
+      "url": "https://gyazo.com",
+      "type": "auto",
+      "max_size_mb": 5,
+      "allowed_formats": ["jpg", "png", "gif"],
+      "selectors": {
+        "upload_button": "input[type='file']",
+        "submit_button": "button[type='submit']"
+      }
+    },
+    {
+      "name": "ImgrPost",
+      "url": "https://imgrpost.com",
+      "type": "auto",
+      "max_size_mb": 5,
+      "allowed_formats": ["jpg", "png"],
+      "selectors": {
+        "upload_button": "input[type='file']",
+        "submit_button": "input[type='submit']"
+      }
+    }
+  ],
+  "signup_sites": [
+    {
+      "name": "Pinterest",
+      "url": "https://www.pinterest.com",
+      "signup_url": "https://www.pinterest.com/join/",
+      "login_url": "https://www.pinterest.com/login/",
+      "upload_url": "https://www.pinterest.com/pin-builder/",
+      "type": "signup",
+      "max_size_mb": 20,
+      "allowed_formats": ["jpg", "png", "gif", "webp"],
+      "selectors": {
+        "signup_email": "input[name='email']",
+        "signup_password": "input[name='password']",
+        "signup_birthdate": "input[name='birthdate']",
+        "login_email": "input[id='email']",
+        "login_password": "input[id='password']",
+        "login_submit": "button[type='submit']",
+        "upload_button": "input[type='file']",
+        "title_field": "textarea[name='title']",
+        "description_field": "textarea[name='description']",
+        "link_field": "input[name='link']",
+        "submit_button": "button[data-test-id='board-dropdown-save-button']"
+      }
+    },
+    {
+      "name": "Imgur",
+      "url": "https://imgur.com",
+      "signup_url": "https://imgur.com/register",
+      "login_url": "https://imgur.com/signin",
+      "upload_url": "https://imgur.com/upload",
+      "type": "signup",
+      "max_size_mb": 20,
+      "allowed_formats": ["jpg", "png", "gif", "mp4"],
+      "selectors": {
+        "signup_username": "input[name='username']",
+        "signup_email": "input[name='email']",
+        "signup_password": "input[name='password']",
+        "login_email": "input[name='username']",
+        "login_password": "input[name='password']",
+        "login_submit": "button[type='submit']",
+        "upload_button": "input[type='file']",
+        "title_field": "input[name='title']",
+        "description_field": "textarea[name='description']",
+        "submit_button": "button[type='submit']"
+      }
+    },
+    {
+      "name": "Flickr",
+      "url": "https://www.flickr.com",
+      "signup_url": "https://identity.flickr.com/sign-up",
+      "login_url": "https://www.flickr.com/signin/",
+      "upload_url": "https://www.flickr.com/photos/upload/",
+      "type": "signup",
+      "max_size_mb": 200,
+      "allowed_formats": ["jpg", "png", "gif"],
+      "selectors": {
+        "login_email": "input[name='username']",
+        "login_password": "input[name='passwd']",
+        "login_submit": "input[type='submit']",
+        "upload_button": "input[type='file']",
+        "title_field": "input.title",
+        "description_field": "textarea.description",
+        "submit_button": "input[type='submit']"
+      }
+    },
+    {
+      "name": "DeviantArt",
+      "url": "https://www.deviantart.com",
+      "signup_url": "https://www.deviantart.com/join/",
+      "login_url": "https://www.deviantart.com/users/login",
+      "upload_url": "https://www.deviantart.com/submit/",
+      "type": "signup",
+      "max_size_mb": 30,
+      "allowed_formats": ["jpg", "png", "gif"],
+      "selectors": {
+        "login_username": "input[name='username']",
+        "login_password": "input[name='password']",
+        "login_submit": "button[type='submit']",
+        "upload_button": "input[type='file']",
+        "title_field": "input[name='title']",
+        "description_field": "textarea",
+        "submit_button": "button[type='submit']"
+      }
+    },
+    {
+      "name": "Tumblr",
+      "url": "https://www.tumblr.com",
+      "signup_url": "https://www.tumblr.com/register",
+      "login_url": "https://www.tumblr.com/login",
+      "upload_url": "https://www.tumblr.com/new/photo",
+      "type": "signup",
+      "max_size_mb": 10,
+      "allowed_formats": ["jpg", "png", "gif"],
+      "selectors": {
+        "login_email": "input[name='email']",
+        "login_password": "input[name='password']",
+        "login_submit": "button[type='submit']",
+        "upload_button": "input[type='file']",
+        "description_field": "div[contenteditable]",
+        "submit_button": "button[type='submit']"
+      }
+    },
+    {
+      "name": "Reddit",
+      "url": "https://www.reddit.com",
+      "signup_url": "https://www.reddit.com/register/",
+      "login_url": "https://www.reddit.com/login/",
+      "upload_url": "https://www.reddit.com/r/pics/submit",
+      "type": "signup",
+      "max_size_mb": 20,
+      "allowed_formats": ["jpg", "png", "gif"],
+      "selectors": {
+        "login_username": "input[name='username']",
+        "login_password": "input[name='password']",
+        "login_submit": "button[type='submit']",
+        "upload_button": "input[type='file']",
+        "title_field": "textarea[name='title']",
+        "submit_button": "button[type='submit']"
+      }
+    },
+    {
+      "name": "Behance",
+      "url": "https://www.behance.net",
+      "signup_url": "https://www.behance.net/",
+      "login_url": "https://www.behance.net/",
+      "upload_url": "https://www.behance.net/gallery/new",
+      "type": "signup",
+      "max_size_mb": 50,
+      "allowed_formats": ["jpg", "png", "gif"],
+      "selectors": {
+        "login_email": "input[name='email']",
+        "login_password": "input[name='password']",
+        "login_submit": "button[type='submit']",
+        "upload_button": "input[type='file']",
+        "title_field": "input[name='title']",
+        "description_field": "div[contenteditable]",
+        "submit_button": "button[type='submit']"
+      }
+    },
+    {
+      "name": "500px",
+      "url": "https://500px.com",
+      "signup_url": "https://500px.com/signup",
+      "login_url": "https://500px.com/login",
+      "upload_url": "https://500px.com/photo/upload",
+      "type": "signup",
+      "max_size_mb": 25,
+      "allowed_formats": ["jpg", "png"],
+      "selectors": {
+        "login_email": "input[name='email']",
+        "login_password": "input[name='password']",
+        "login_submit": "button[type='submit']",
+        "upload_button": "input[type='file']",
+        "title_field": "input[name='title']",
+        "description_field": "textarea[name='description']",
+        "submit_button": "button[type='submit']"
+      }
+    },
+    {
+      "name": "ArtStation",
+      "url": "https://www.artstation.com",
+      "signup_url": "https://www.artstation.com/users/sign_up",
+      "login_url": "https://www.artstation.com/users/sign_in",
+      "upload_url": "https://www.artstation.com/artwork/new",
+      "type": "signup",
+      "max_size_mb": 50,
+      "allowed_formats": ["jpg", "png"],
+      "selectors": {
+        "login_email": "input[name='user[email]']",
+        "login_password": "input[name='user[password]']",
+        "login_submit": "input[type='submit']",
+        "upload_button": "input[type='file']",
+        "title_field": "input[name='title']",
+        "description_field": "textarea",
+        "submit_button": "button[type='submit']"
+      }
+    },
+    {
+      "name": "Dribbble",
+      "url": "https://dribbble.com",
+      "signup_url": "https://dribbble.com/signup",
+      "login_url": "https://dribbble.com/session/new",
+      "upload_url": "https://dribbble.com/shots/new",
+      "type": "signup",
+      "max_size_mb": 8,
+      "allowed_formats": ["jpg", "png", "gif"],
+      "selectors": {
+        "login_email": "input[name='login']",
+        "login_password": "input[name='password']",
+        "login_submit": "input[type='submit']",
+        "upload_button": "input[type='file']",
+        "title_field": "input[name='shot[name]']",
+        "description_field": "textarea[name='shot[description]']",
+        "submit_button": "input[type='submit']"
+      }
+    }
+  ],
+  "assist_sites": [
+    {"name": "Pixabay", "url": "https://pixabay.com/photos/upload/", "type": "assist", "max_size_mb": 15, "allowed_formats": ["jpg", "png"]},
+    {"name": "Pexels", "url": "https://www.pexels.com/uploads/", "type": "assist", "max_size_mb": 20, "allowed_formats": ["jpg", "png"]},
+    {"name": "Unsplash", "url": "https://unsplash.com/submit", "type": "assist", "max_size_mb": 20, "allowed_formats": ["jpg"]},
+    {"name": "Photobucket", "url": "https://photobucket.com/upload", "type": "assist", "max_size_mb": 1000, "allowed_formats": ["jpg", "png", "gif"]},
+    {"name": "SmugMug", "url": "https://www.smugmug.com/upload", "type": "assist", "max_size_mb": 50, "allowed_formats": ["jpg", "png"]},
+    {"name": "Dreamstime", "url": "https://www.dreamstime.com/upload_photo.php", "type": "assist", "max_size_mb": 50, "allowed_formats": ["jpg"]},
+    {"name": "Alamy", "url": "https://www.alamy.com/contributor/", "type": "assist", "max_size_mb": 50, "allowed_formats": ["jpg"]},
+    {"name": "Depositphotos", "url": "https://depositphotos.com/upload.html", "type": "assist", "max_size_mb": 100, "allowed_formats": ["jpg", "png"]},
+    {"name": "123RF", "url": "https://www.123rf.com/contributor/", "type": "assist", "max_size_mb": 50, "allowed_formats": ["jpg"]},
+    {"name": "Photoshelter", "url": "https://app.photoshelter.com/mem/upload", "type": "assist", "max_size_mb": 50, "allowed_formats": ["jpg", "png"]},
+    {"name": "CargoCollective", "url": "https://cargocollective.com", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg", "png"]},
+    {"name": "Visual.ly", "url": "https://visual.ly/create", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg", "png"]},
+    {"name": "Infogram", "url": "https://infogram.com", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg", "png"]},
+    {"name": "Issuu", "url": "https://issuu.com/upload", "type": "assist", "max_size_mb": 100, "allowed_formats": ["jpg", "png"]},
+    {"name": "Scoop.it", "url": "https://www.scoop.it", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg", "png"]},
+    {"name": "FreeImages", "url": "https://www.freeimages.com/upload", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg"]},
+    {"name": "ImageShack", "url": "https://imageshack.com/i/upload", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg", "png"]},
+    {"name": "EyeEm", "url": "https://www.eyeem.com/upload", "type": "assist", "max_size_mb": 20, "allowed_formats": ["jpg"]},
+    {"name": "Foap", "url": "https://www.foap.com", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg"]},
+    {"name": "Zenfolio", "url": "https://zenfolio.com", "type": "assist", "max_size_mb": 50, "allowed_formats": ["jpg", "png"]},
+    {"name": "Stocksy", "url": "https://www.stocksy.com", "type": "assist", "max_size_mb": 50, "allowed_formats": ["jpg"]},
+    {"name": "Carbonmade", "url": "https://carbonmade.com", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg", "png"]},
+    {"name": "Coroflot", "url": "https://www.coroflot.com/upload", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg", "png"]},
+    {"name": "Format", "url": "https://www.format.com", "type": "assist", "max_size_mb": 20, "allowed_formats": ["jpg", "png"]},
+    {"name": "Krop", "url": "https://www.krop.com", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg", "png"]},
+    {"name": "Photo.net", "url": "https://photo.net/photos/upload", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg"]},
+    {"name": "Strikingly", "url": "https://www.strikingly.com", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg", "png"]},
+    {"name": "Society6", "url": "https://society6.com/sell", "type": "assist", "max_size_mb": 50, "allowed_formats": ["jpg", "png"]},
+    {"name": "Redbubble", "url": "https://www.redbubble.com/portfolio/images/new", "type": "assist", "max_size_mb": 50, "allowed_formats": ["jpg", "png"]},
+    {"name": "Designspiration", "url": "https://www.designspiration.com/save/", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg", "png"]},
+    {"name": "Ello", "url": "https://ello.co", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg", "png"]},
+    {"name": "Crevado", "url": "https://crevado.com", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg", "png"]},
+    {"name": "Viewbug", "url": "https://www.viewbug.com/upload", "type": "assist", "max_size_mb": 25, "allowed_formats": ["jpg"]},
+    {"name": "Gurushots", "url": "https://gurushots.com", "type": "assist", "max_size_mb": 15, "allowed_formats": ["jpg"]},
+    {"name": "Youpic", "url": "https://youpic.com/upload/", "type": "assist", "max_size_mb": 20, "allowed_formats": ["jpg"]},
+    {"name": "Fotocommunity", "url": "https://www.fotocommunity.com/upload", "type": "assist", "max_size_mb": 15, "allowed_formats": ["jpg"]},
+    {"name": "1x.com", "url": "https://1x.com/upload/", "type": "assist", "max_size_mb": 25, "allowed_formats": ["jpg"]},
+    {"name": "Photocrowd", "url": "https://www.photocrowd.com", "type": "assist", "max_size_mb": 15, "allowed_formats": ["jpg"]},
+    {"name": "DPChallenge", "url": "https://www.dpchallenge.com/upload.cfm", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg"]},
+    {"name": "Piktochart", "url": "https://piktochart.com", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg", "png"]},
+    {"name": "Visme", "url": "https://www.visme.co", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg", "png"]},
+    {"name": "Easel.ly", "url": "https://www.easel.ly", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg", "png"]},
+    {"name": "Venngage", "url": "https://venngage.com", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg", "png"]},
+    {"name": "BeFunky", "url": "https://www.befunky.com", "type": "assist", "max_size_mb": 15, "allowed_formats": ["jpg", "png"]},
+    {"name": "Fotor", "url": "https://www.fotor.com", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg", "png"]},
+    {"name": "Snappa", "url": "https://snappa.com", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg", "png"]},
+    {"name": "Designhill", "url": "https://www.designhill.com", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg", "png"]},
+    {"name": "Freepik", "url": "https://www.freepik.com", "type": "assist", "max_size_mb": 20, "allowed_formats": ["jpg", "png"]},
+    {"name": "Flaticon", "url": "https://www.flaticon.com", "type": "assist", "max_size_mb": 10, "allowed_formats": ["png", "svg"]},
+    {"name": "Vectorstock", "url": "https://www.vectorstock.com/upload", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg", "png"]},
+    {"name": "Rawpixel", "url": "https://www.rawpixel.com", "type": "assist", "max_size_mb": 20, "allowed_formats": ["jpg", "png"]},
+    {"name": "Lifeofpix", "url": "https://www.lifeofpix.com/submit-photos/", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg"]},
+    {"name": "Picjumbo", "url": "https://picjumbo.com/submit/", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg"]},
+    {"name": "Gravatar", "url": "https://gravatar.com", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg", "png"]},
+    {"name": "Webshots", "url": "https://www.webshots.com", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg"]},
+    {"name": "Pbase", "url": "https://www.pbase.com/upload", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg"]},
+    {"name": "Fotki", "url": "https://fotki.com/upload", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg"]},
+    {"name": "Houzz", "url": "https://www.houzz.com/photos/add", "type": "assist", "max_size_mb": 15, "allowed_formats": ["jpg", "png"]},
+    {"name": "Foodgawker", "url": "https://foodgawker.com/submit/", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg"]},
+    {"name": "Hometalk", "url": "https://www.hometalk.com", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg", "png"]},
+    {"name": "WeHeartIt", "url": "https://weheartit.com/upload", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg", "png"]},
+    {"name": "Fancy", "url": "https://fancy.com/add", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg", "png"]},
+    {"name": "Mix", "url": "https://mix.com", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg", "png"]},
+    {"name": "Storeboard", "url": "https://www.storeboard.com", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg", "png"]},
+    {"name": "Picxy", "url": "https://www.picxy.com/upload", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg"]},
+    {"name": "Ipernity", "url": "https://www.ipernity.com/upload", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg", "png"]},
+    {"name": "Vectorportal", "url": "https://www.vectorportal.com", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg", "png"]},
+    {"name": "SVGRepo", "url": "https://www.svgrepo.com", "type": "assist", "max_size_mb": 5, "allowed_formats": ["svg", "png"]},
+    {"name": "Photosig", "url": "https://www.photosig.com/go/photos/upload", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg"]},
+    {"name": "Slideshare", "url": "https://www.slideshare.net/upload", "type": "assist", "max_size_mb": 100, "allowed_formats": ["jpg", "png"]},
+    {"name": "Canva", "url": "https://www.canva.com", "type": "assist", "max_size_mb": 25, "allowed_formats": ["jpg", "png"]},
+    {"name": "Giphy", "url": "https://giphy.com/create/gifmaker", "type": "assist", "max_size_mb": 100, "allowed_formats": ["jpg", "png", "gif"]},
+    {"name": "Medium", "url": "https://medium.com/new-story", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg", "png"]},
+    {"name": "Quora", "url": "https://www.quora.com", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg", "png"]},
+    {"name": "WordPress", "url": "https://wordpress.com/media/new/", "type": "assist", "max_size_mb": 50, "allowed_formats": ["jpg", "png"]},
+    {"name": "Blogger", "url": "https://www.blogger.com", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg", "png"]},
+    {"name": "Digg", "url": "https://digg.com", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg", "png"]},
+    {"name": "Zoomburst", "url": "https://www.zoomburst.com", "type": "assist", "max_size_mb": 5, "allowed_formats": ["jpg"]},
+    {"name": "Dunked", "url": "https://dunked.com", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg", "png"]},
+    {"name": "Portfoliobox", "url": "https://www.portfoliobox.net", "type": "assist", "max_size_mb": 10, "allowed_formats": ["jpg", "png"]},
+    {"name": "Exposure", "url": "https://exposure.co", "type": "assist", "max_size_mb": 20, "allowed_formats": ["jpg"]},
+    {"name": "Pixpa", "url": "https://www.pixpa.com", "type": "assist", "max_size_mb": 20, "allowed_formats": ["jpg", "png"]},
+    {"name": "Archive.org", "url": "https://archive.org/upload/", "type": "assist", "max_size_mb": 100, "allowed_formats": ["jpg", "png"]}
+  ]
+}
