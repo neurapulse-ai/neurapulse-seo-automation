@@ -14,8 +14,14 @@ LOG_PATH = os.path.join(os.path.dirname(__file__), '..', 'data', 'submission_log
 
 def load_log():
     if os.path.exists(LOG_PATH):
-        with open(LOG_PATH) as f:
-            return json.load(f)
+        try:
+            with open(LOG_PATH) as f:
+                content = f.read().strip()
+                if not content:
+                    return {}
+                return json.loads(content)
+        except (json.JSONDecodeError, Exception):
+            return {}
     return {}
 
 
